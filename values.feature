@@ -16,10 +16,10 @@ And label "Value 4" should not be present
 And <lbl_val> with text <label_text> should appear beside <txt_val> with text <value>
 
 Examples:
-	|lbl_val	|label_text	|txt_val	|value
-	|lbl_val_1	|Value 1	|txt_val_1	|$123.00	
-	|lbl_val_2	|Value 2	|txt_val_2	|$123.45	
-	|lbl_val_3	|Value 3	|txt_val_3	|$1,000.00
+	|lbl_val	|label_text	|txt_val	|value		|
+	|lbl_val_1	|Value 1	|txt_val_1	|$123.00	|
+	|lbl_val_2	|Value 2	|txt_val_2	|$123.45	|
+	|lbl_val_3	|Value 3	|txt_val_3	|$1,000.00	|
 	
 
 #----------------------------------------------------------------
@@ -46,7 +46,7 @@ Examples:
 Scenario: The Total Balance should equal the sum of the values listed
 Given there are values:
 	|value		|
-	|111.11
+	|111.11		|
 	|222		|
 	|333.33		|
 	|-.01		|
@@ -83,7 +83,4 @@ Examples:
 	|lbl_val_6	|Value 6	|txt_val_6	|$1,000.00	|
 	|lbl_val_7	|Value 7	|txt_val_7	|$100,000	|
 	|lbl_val_8	|Value 8	|txt_val_8	|$1,000,000	|
-
-
-
 
