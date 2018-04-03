@@ -1,7 +1,7 @@
 Feature:  Value page
 
 Background:
-Given I am in the Chrome browser
+Given I am in the Chrome browser:
 
 #----------------------------------------------------------------
 Scenario: The proper number of values should appear on the screen
@@ -16,10 +16,10 @@ And label "Value 4" should not be present
 And <lbl_val> with text <label_text> should appear beside <txt_val> with text <value>
 
 Examples:
-	|lbl_val	|label_text	|txt_val	|value		|
-	|lbl_val_1	|Value 1	|txt_val_1	|$123.00	|
-	|lbl_val_2	|Value 2	|txt_val_2	|$123.45	|
-	|lbl_val_3	|Value 3	|txt_val_3	|$1,000.00	|
+	|lbl_val	|label_text	|txt_val	|value
+	|lbl_val_1	|Value 1	|txt_val_1	|$123.00	
+	|lbl_val_2	|Value 2	|txt_val_2	|$123.45	
+	|lbl_val_3	|Value 3	|txt_val_3	|$1,000.00
 	
 
 #----------------------------------------------------------------
@@ -54,7 +54,7 @@ Given there are values:
 	|0		|
 	|5555.50
 
-Then the Total Value text field should equal $10,666.34
+Then the Total Value text field should equal "$10,666.34"
 
 
 #----------------------------------------------------------------
@@ -71,7 +71,7 @@ Given there are values:
 	|1000000	|
 When user navigates to values page
 Then <lbl_val> with text <label_text> should appear beside <txt_val> with text <value>
-and the total value should be $1,101,104.21
+and the total value should be "$1,101,104.21"
 
 Examples:
 	|lbl_val	|label_text	|txt_val	|value		|
