@@ -11,17 +11,17 @@ They represent the approach to testing the page referenced above.
 
 
 # Effort:
-It is a work in progress with about 8 or 9 hours of effort or learning Gherkin/Cucumber and going a little deeper with Ruby.
+It is a work in progress with about 8 or 9 hours of effort of learning Gherkin/Cucumber and going a little deeper with Ruby.
     
 # Ruby:
-The requesting company is one that uses Ruby.  As such, Ruby was the language chosen for the steps and page object files.
+The role is one that involves Ruby.  As such, Ruby was the language chosen for the steps and page object files.
 
 # Next Steps:
 The next steps will involve learning Cucumber and getting tests up and running against actual pages.
 
 A similar page to the one described in the exercise will be located and the three files will be re-done using Java/Cucumber.
 
-The more helpful cucumber tutorials, for the most part, seemed to use Java.  As such, given more than a 4-8 hour time-frame, these would have been re-written using Java
+The more helpful cucumber tutorials found, for the most part, seemed to use Java.  As such, given more than a 4-8 hour suggested time-frame, these would have been re-written using Java.
   
 
   
