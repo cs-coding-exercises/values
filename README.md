@@ -11,7 +11,7 @@ They represent the approach to testing the page referenced above.
 
 
 # Effort:
-    It is a work in progress with about 8 or 9 hours of effort or learning Gherkin/Cucumber and going a little deeper with Ruby.
+It is a work in progress with about 8 or 9 hours of effort or learning Gherkin/Cucumber and going a little deeper with Ruby.
     
 # Ruby:
 The requesting company is one that uses Ruby.  As such, Ruby was the language chosen for the steps and page object files.
