@@ -71,7 +71,7 @@ Given there are values:
 	|1000000	|
 When user navigates to values page
 Then <lbl_val> with text <label_text> should appear beside <txt_val> with text <value>
-and the total value should be "$1,101,104.21"
+And the total value should be "$1,101,104.21"
 
 Examples:
 	|lbl_val	|label_text	|txt_val	|value		|
@@ -83,4 +83,3 @@ Examples:
 	|lbl_val_6	|Value 6	|txt_val_6	|$1,000.00	|
 	|lbl_val_7	|Value 7	|txt_val_7	|$100,000	|
 	|lbl_val_8	|Value 8	|txt_val_8	|$1,000,000	|
-
