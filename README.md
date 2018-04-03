@@ -1,4 +1,4 @@
-# assignment
+# Assignment
 This is my first attempt at learning Gherkin and Cucumber.
 
 The "page" being tested is a hypothetical one with multiple non-zero and non-negative values fields and a total balance field which represents the sum of all values (all fields have corresponding labels).
@@ -19,9 +19,10 @@ The requesting company is one that uses Ruby.  As such, Ruby was the language ch
 # Next Steps:
   The more helpful cucumber tutorials, for the most part, seemed to use Java.
   
-  A similar page to the one described in the exercise will be located and the three files will be re-written using Java/Cucumber.  
+  As such, given more than a 4-8 hour time-frame, these would have been re-written using Java
   
-  Given more than a 4-8 hour time-frame, these would have been re-written using Java
+  A similar page to the one described in the exercise will be located and the three files will be re-written using Java/Cucumber.
+  
   
  
 
